@@ -67,6 +67,11 @@
         "value": "https://t.me/AM_YTSUPPORT",
         "required": false
       },
+    "ABOUT_ME": {
+        "description": "Add Your About Telegam CHannel Link ",
+        "value": "https://t.me/About_AMBot",
+        "required": false
+      },
     "CHAT_LOGS": {
         "description": "Add Your Chat Group id for new group add logs id like -100",
         "value": "-1001841879487",
