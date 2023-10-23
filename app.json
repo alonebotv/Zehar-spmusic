@@ -1,12 +1,12 @@
 {
-    "name": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+    "name": "ꜱᴏᴘʜɪᴀ 乂 𝐌𝐮𝐬𝐢𝐜",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/Aviax-02-24",
+    "logo": "https://graph.org/file/65c35ede2f14baafaaf77.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Aviax",
+    "AMMusic",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "12227067",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "b463bedd791aa733ae2297e6520302fe",
         "required": true
       },
       "BOT_TOKEN": {
@@ -28,17 +28,22 @@
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "description": "Get a mongodb url from https://cloud.mongodb.com.leave blank auto using am mongodb.",
         "value": "",
-        "required": true
+        "required": false
       },
-      "OWNER_ID": {
-        "description": "The user id of user whom you would like to add as OWNER.",
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "Set this to True if you want the assistant to automatically leave chats after an interval",
+        "value": "False",
+        "required": false
+      },
+    "OWNER_ID": {
+        "description": "The user id of user whom you would like to add as OWNER.get owner id from @Sophia_x_MusicBot in telegram",
         "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from Replit.",
+        "description": "A Pyrogram v1 And v2 String Session from @Sessoin_String_gen_BOT.",
         "value": "",
         "required": true
       },
@@ -52,9 +57,29 @@
         "value": "",
         "required": false
       },
+    "SUPPORT_CHANNEL": {
+        "description": "Add Your Channel link like - https://t.me/AMBOTYT ",
+        "value": "https://t.me/AMBOTYT",
+        "required": false
+      },
+    "SUPPORT_GROUP": {
+        "description": "Add Your Chat Group link like - https://t.me/AM_YTSUPPORT ",
+        "value": "https://t.me/AM_YTSUPPORT",
+        "required": false
+      },
+    "CHAT_LOGS": {
+        "description": "Add Your Chat Group id for new group add logs id like -100",
+        "value": "-1001841879487",
+        "required": false
+      },
+    "OWNER_USERNAME": {
+        "description": "Enter Owner Username without @ like @AM_YTBOTT to use AM_YTBOTT",
+        "value": "AM_YTBOTT",
+        "required": false
+      },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
-        "value": "",
+        "value": "-1001841879487",
         "required": true
       }
     },
