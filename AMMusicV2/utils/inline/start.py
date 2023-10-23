@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton
 
-import config
+from config import ABOUT_ME
 from AMMusicV2 import app
 
 
@@ -31,6 +31,14 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
+        ],
+         [
+            InlineKeyboardButton(
+                text="ᴘᴀʀᴛ ᴏꜰ ᴀᴍ ? ", url=f"https://t.me/AbhiModszYT_Return/302"
+            ),
+             InlineKeyboardButton(
+                text="ᴀʙᴏᴜᴛ ᴍᴇ 🤭", url=f"{ABOUT_ME}"
+            ),
         ],
     ]
     return buttons
